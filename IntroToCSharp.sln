@@ -1,0 +1,175 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Games", "_Games", "{93553D36-9A65-4F5F-B8FC-5EAF6EF27AC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_WinForms", "_WinForms", "{BADC1D4A-97E6-4E55-B3D0-A68A5896ED36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_XmlApps", "_XmlApps", "{1ED5C505-FAA9-4923-A223-C6F8F2AA4C97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_ConsoleApps", "_ConsoleApps", "{B63828F5-D361-4057-A130-B532E5073669}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_DLLs", "_DLLs", "{D82610B2-FAC5-43D8-85CE-A2DD65DF4153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClass", "_ConsoleApps\AbstractClass\AbstractClass.csproj", "{5BC5F2D0-4C0B-47FA-BA4A-BD81DEFBADA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroToCSharp", "_ConsoleApps\IntroToCSharp\IntroToCSharp.csproj", "{A62D64A8-B34E-4464-9019-1AD4CA2FAEAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipFolder", "_ConsoleApps\ZipFolder\ZipFolder.csproj", "{65638C37-4550-4C3B-ADA0-2B74D665446A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustCars", "_Games\JustCars\JustCars.csproj", "{3FCD07D5-4607-40BB-A2DE-8AFF476F1315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustPingPong", "_Games\JustPingPong\JustPingPong.csproj", "{D959A593-2E68-4BF3-8396-5E1324CBC6BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "_Games\Snake\Snake.csproj", "{FD5F9E71-5C90-4359-8AE6-E9B684B16EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonUtilities", "_DLLs\CommonUtilities\CommonUtilities.csproj", "{4E70A319-3926-4B84-B180-C702B97627ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginForm", "_WinForms\LoginForm\LoginForm.csproj", "{1E104F44-9C7C-4C2C-AA1D-BAFAD1A064A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormApps", "_WinForms\WinFormApps\WinFormApps.csproj", "{9DD56E9F-7C5F-4831-8751-7036B4DA63D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms1", "_WinForms\WinForms1\WinForms1.csproj", "{32B8480B-BC2B-4F4A-8E30-D96C0831A9A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_MySQL", "_MySQL", "{EB4A5764-EA6A-448F-8D04-439EE091818B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_SQL", "_SQL", "{DCED9561-05C1-41C0-A956-1B0EFE6DB473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformsSQL1", "WinformsSQL1\WinformsSQL1.csproj", "{02735BA3-5F5A-42F8-8A7E-B980AF76973C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLapp", "_XMLapps\XMLapp\XMLapp.csproj", "{A5F0A826-6F26-434B-9756-188B22A7C98E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BC5F2D0-4C0B-47FA-BA4A-BD81DEFBADA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC5F2D0-4C0B-47FA-BA4A-BD81DEFBADA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC5F2D0-4C0B-47FA-BA4A-BD81DEFBADA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC5F2D0-4C0B-47FA-BA4A-BD81DEFBADA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A62D64A8-B34E-4464-9019-1AD4CA2FAEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62D64A8-B34E-4464-9019-1AD4CA2FAEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62D64A8-B34E-4464-9019-1AD4CA2FAEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62D64A8-B34E-4464-9019-1AD4CA2FAEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65638C37-4550-4C3B-ADA0-2B74D665446A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65638C37-4550-4C3B-ADA0-2B74D665446A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65638C37-4550-4C3B-ADA0-2B74D665446A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65638C37-4550-4C3B-ADA0-2B74D665446A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FCD07D5-4607-40BB-A2DE-8AFF476F1315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FCD07D5-4607-40BB-A2DE-8AFF476F1315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FCD07D5-4607-40BB-A2DE-8AFF476F1315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FCD07D5-4607-40BB-A2DE-8AFF476F1315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D959A593-2E68-4BF3-8396-5E1324CBC6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D959A593-2E68-4BF3-8396-5E1324CBC6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D959A593-2E68-4BF3-8396-5E1324CBC6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D959A593-2E68-4BF3-8396-5E1324CBC6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5F9E71-5C90-4359-8AE6-E9B684B16EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5F9E71-5C90-4359-8AE6-E9B684B16EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5F9E71-5C90-4359-8AE6-E9B684B16EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5F9E71-5C90-4359-8AE6-E9B684B16EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E70A319-3926-4B84-B180-C702B97627ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E70A319-3926-4B84-B180-C702B97627ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E70A319-3926-4B84-B180-C702B97627ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E70A319-3926-4B84-B180-C702B97627ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E104F44-9C7C-4C2C-AA1D-BAFAD1A064A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E104F44-9C7C-4C2C-AA1D-BAFAD1A064A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E104F44-9C7C-4C2C-AA1D-BAFAD1A064A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E104F44-9C7C-4C2C-AA1D-BAFAD1A064A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD56E9F-7C5F-4831-8751-7036B4DA63D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD56E9F-7C5F-4831-8751-7036B4DA63D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD56E9F-7C5F-4831-8751-7036B4DA63D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD56E9F-7C5F-4831-8751-7036B4DA63D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B8480B-BC2B-4F4A-8E30-D96C0831A9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B8480B-BC2B-4F4A-8E30-D96C0831A9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B8480B-BC2B-4F4A-8E30-D96C0831A9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B8480B-BC2B-4F4A-8E30-D96C0831A9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02735BA3-5F5A-42F8-8A7E-B980AF76973C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02735BA3-5F5A-42F8-8A7E-B980AF76973C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02735BA3-5F5A-42F8-8A7E-B980AF76973C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02735BA3-5F5A-42F8-8A7E-B980AF76973C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F0A826-6F26-434B-9756-188B22A7C98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F0A826-6F26-434B-9756-188B22A7C98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F0A826-6F26-434B-9756-188B22A7C98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F0A826-6F26-434B-9756-188B22A7C98E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5BC5F2D0-4C0B-47FA-BA4A-BD81DEFBADA3} = {B63828F5-D361-4057-A130-B532E5073669}
+		{A62D64A8-B34E-4464-9019-1AD4CA2FAEAF} = {B63828F5-D361-4057-A130-B532E5073669}
+		{65638C37-4550-4C3B-ADA0-2B74D665446A} = {B63828F5-D361-4057-A130-B532E5073669}
+		{3FCD07D5-4607-40BB-A2DE-8AFF476F1315} = {93553D36-9A65-4F5F-B8FC-5EAF6EF27AC1}
+		{D959A593-2E68-4BF3-8396-5E1324CBC6BF} = {93553D36-9A65-4F5F-B8FC-5EAF6EF27AC1}
+		{FD5F9E71-5C90-4359-8AE6-E9B684B16EFE} = {93553D36-9A65-4F5F-B8FC-5EAF6EF27AC1}
+		{4E70A319-3926-4B84-B180-C702B97627ED} = {D82610B2-FAC5-43D8-85CE-A2DD65DF4153}
+		{1E104F44-9C7C-4C2C-AA1D-BAFAD1A064A3} = {EB4A5764-EA6A-448F-8D04-439EE091818B}
+		{9DD56E9F-7C5F-4831-8751-7036B4DA63D6} = {BADC1D4A-97E6-4E55-B3D0-A68A5896ED36}
+		{32B8480B-BC2B-4F4A-8E30-D96C0831A9A3} = {EB4A5764-EA6A-448F-8D04-439EE091818B}
+		{EB4A5764-EA6A-448F-8D04-439EE091818B} = {BADC1D4A-97E6-4E55-B3D0-A68A5896ED36}
+		{DCED9561-05C1-41C0-A956-1B0EFE6DB473} = {BADC1D4A-97E6-4E55-B3D0-A68A5896ED36}
+		{02735BA3-5F5A-42F8-8A7E-B980AF76973C} = {DCED9561-05C1-41C0-A956-1B0EFE6DB473}
+		{A5F0A826-6F26-434B-9756-188B22A7C98E} = {1ED5C505-FAA9-4923-A223-C6F8F2AA4C97}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD124507-4D38-4ADD-88F5-A5A377AB3957}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 13
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://696969.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = _ConsoleApps\\AbstractClass\\AbstractClass.csproj
+		SccProjectTopLevelParentUniqueName1 = IntroToCSharp.sln
+		SccProjectName1 = _ConsoleApps/AbstractClass
+		SccLocalPath1 = _ConsoleApps\\AbstractClass
+		SccProjectUniqueName2 = _ConsoleApps\\IntroToCSharp\\IntroToCSharp.csproj
+		SccProjectTopLevelParentUniqueName2 = IntroToCSharp.sln
+		SccProjectName2 = _ConsoleApps/IntroToCSharp
+		SccLocalPath2 = _ConsoleApps\\IntroToCSharp
+		SccProjectUniqueName3 = _ConsoleApps\\ZipFolder\\ZipFolder.csproj
+		SccProjectTopLevelParentUniqueName3 = IntroToCSharp.sln
+		SccProjectName3 = _ConsoleApps/ZipFolder
+		SccLocalPath3 = _ConsoleApps\\ZipFolder
+		SccProjectUniqueName4 = _DLLs\\CommonUtilities\\CommonUtilities.csproj
+		SccProjectTopLevelParentUniqueName4 = IntroToCSharp.sln
+		SccProjectName4 = _DLLs/CommonUtilities
+		SccLocalPath4 = _DLLs\\CommonUtilities
+		SccProjectUniqueName5 = _Games\\JustCars\\JustCars.csproj
+		SccProjectTopLevelParentUniqueName5 = IntroToCSharp.sln
+		SccProjectName5 = _Games/JustCars
+		SccLocalPath5 = _Games\\JustCars
+		SccProjectUniqueName6 = _Games\\JustPingPong\\JustPingPong.csproj
+		SccProjectTopLevelParentUniqueName6 = IntroToCSharp.sln
+		SccProjectName6 = _Games/JustPingPong
+		SccLocalPath6 = _Games\\JustPingPong
+		SccProjectUniqueName7 = _Games\\Snake\\Snake.csproj
+		SccProjectTopLevelParentUniqueName7 = IntroToCSharp.sln
+		SccProjectName7 = _Games/Snake
+		SccLocalPath7 = _Games\\Snake
+		SccProjectUniqueName8 = _WinForms\\LoginForm\\LoginForm.csproj
+		SccProjectTopLevelParentUniqueName8 = IntroToCSharp.sln
+		SccProjectName8 = _WinForms/LoginForm
+		SccLocalPath8 = _WinForms\\LoginForm
+		SccProjectUniqueName9 = _WinForms\\WinFormApps\\WinFormApps.csproj
+		SccProjectTopLevelParentUniqueName9 = IntroToCSharp.sln
+		SccProjectName9 = _WinForms/WinFormApps
+		SccLocalPath9 = _WinForms\\WinFormApps
+		SccProjectUniqueName10 = _WinForms\\WinForms1\\WinForms1.csproj
+		SccProjectTopLevelParentUniqueName10 = IntroToCSharp.sln
+		SccProjectName10 = _WinForms/WinForms1
+		SccLocalPath10 = _WinForms\\WinForms1
+		SccProjectUniqueName11 = _XMLapps\\XMLapp\\XMLapp.csproj
+		SccProjectTopLevelParentUniqueName11 = IntroToCSharp.sln
+		SccProjectName11 = _XMLapps/XMLapp
+		SccLocalPath11 = _XMLapps\\XMLapp
+		SccProjectUniqueName12 = WinformsSQL1\\WinformsSQL1.csproj
+		SccProjectTopLevelParentUniqueName12 = IntroToCSharp.sln
+		SccProjectName12 = WinformsSQL1
+		SccLocalPath12 = WinformsSQL1
+	EndGlobalSection
+EndGlobal

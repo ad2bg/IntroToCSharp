@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformsSQL1", "WinformsSQL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLapp", "_XMLapps\XMLapp\XMLapp.csproj", "{A5F0A826-6F26-434B-9756-188B22A7C98E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustChess", "_Games\JustChess\JustChess.csproj", "{933CCD7D-46E7-4E05-A78E-818E68C5099E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{A5F0A826-6F26-434B-9756-188B22A7C98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5F0A826-6F26-434B-9756-188B22A7C98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5F0A826-6F26-434B-9756-188B22A7C98E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933CCD7D-46E7-4E05-A78E-818E68C5099E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933CCD7D-46E7-4E05-A78E-818E68C5099E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933CCD7D-46E7-4E05-A78E-818E68C5099E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933CCD7D-46E7-4E05-A78E-818E68C5099E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,62 +120,9 @@ Global
 		{DCED9561-05C1-41C0-A956-1B0EFE6DB473} = {BADC1D4A-97E6-4E55-B3D0-A68A5896ED36}
 		{02735BA3-5F5A-42F8-8A7E-B980AF76973C} = {DCED9561-05C1-41C0-A956-1B0EFE6DB473}
 		{A5F0A826-6F26-434B-9756-188B22A7C98E} = {1ED5C505-FAA9-4923-A223-C6F8F2AA4C97}
+		{933CCD7D-46E7-4E05-A78E-818E68C5099E} = {93553D36-9A65-4F5F-B8FC-5EAF6EF27AC1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CD124507-4D38-4ADD-88F5-A5A377AB3957}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 13
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://696969.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = _ConsoleApps\\AbstractClass\\AbstractClass.csproj
-		SccProjectTopLevelParentUniqueName1 = IntroToCSharp.sln
-		SccProjectName1 = _ConsoleApps/AbstractClass
-		SccLocalPath1 = _ConsoleApps\\AbstractClass
-		SccProjectUniqueName2 = _ConsoleApps\\IntroToCSharp\\IntroToCSharp.csproj
-		SccProjectTopLevelParentUniqueName2 = IntroToCSharp.sln
-		SccProjectName2 = _ConsoleApps/IntroToCSharp
-		SccLocalPath2 = _ConsoleApps\\IntroToCSharp
-		SccProjectUniqueName3 = _ConsoleApps\\ZipFolder\\ZipFolder.csproj
-		SccProjectTopLevelParentUniqueName3 = IntroToCSharp.sln
-		SccProjectName3 = _ConsoleApps/ZipFolder
-		SccLocalPath3 = _ConsoleApps\\ZipFolder
-		SccProjectUniqueName4 = _DLLs\\CommonUtilities\\CommonUtilities.csproj
-		SccProjectTopLevelParentUniqueName4 = IntroToCSharp.sln
-		SccProjectName4 = _DLLs/CommonUtilities
-		SccLocalPath4 = _DLLs\\CommonUtilities
-		SccProjectUniqueName5 = _Games\\JustCars\\JustCars.csproj
-		SccProjectTopLevelParentUniqueName5 = IntroToCSharp.sln
-		SccProjectName5 = _Games/JustCars
-		SccLocalPath5 = _Games\\JustCars
-		SccProjectUniqueName6 = _Games\\JustPingPong\\JustPingPong.csproj
-		SccProjectTopLevelParentUniqueName6 = IntroToCSharp.sln
-		SccProjectName6 = _Games/JustPingPong
-		SccLocalPath6 = _Games\\JustPingPong
-		SccProjectUniqueName7 = _Games\\Snake\\Snake.csproj
-		SccProjectTopLevelParentUniqueName7 = IntroToCSharp.sln
-		SccProjectName7 = _Games/Snake
-		SccLocalPath7 = _Games\\Snake
-		SccProjectUniqueName8 = _WinForms\\LoginForm\\LoginForm.csproj
-		SccProjectTopLevelParentUniqueName8 = IntroToCSharp.sln
-		SccProjectName8 = _WinForms/LoginForm
-		SccLocalPath8 = _WinForms\\LoginForm
-		SccProjectUniqueName9 = _WinForms\\WinFormApps\\WinFormApps.csproj
-		SccProjectTopLevelParentUniqueName9 = IntroToCSharp.sln
-		SccProjectName9 = _WinForms/WinFormApps
-		SccLocalPath9 = _WinForms\\WinFormApps
-		SccProjectUniqueName10 = _WinForms\\WinForms1\\WinForms1.csproj
-		SccProjectTopLevelParentUniqueName10 = IntroToCSharp.sln
-		SccProjectName10 = _WinForms/WinForms1
-		SccLocalPath10 = _WinForms\\WinForms1
-		SccProjectUniqueName11 = _XMLapps\\XMLapp\\XMLapp.csproj
-		SccProjectTopLevelParentUniqueName11 = IntroToCSharp.sln
-		SccProjectName11 = _XMLapps/XMLapp
-		SccLocalPath11 = _XMLapps\\XMLapp
-		SccProjectUniqueName12 = WinformsSQL1\\WinformsSQL1.csproj
-		SccProjectTopLevelParentUniqueName12 = IntroToCSharp.sln
-		SccProjectName12 = WinformsSQL1
-		SccLocalPath12 = WinformsSQL1
 	EndGlobalSection
 EndGlobal

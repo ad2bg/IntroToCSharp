@@ -13,6 +13,8 @@ namespace CommonUtils
     /// Right, string
     /// RemoveLeft, string
     /// RemoveRight, string
+    /// RemoveMid, string
+    /// RemoveDuplicatedChars, string
     /// ToHex, string
     /// ToInt, int
     /// SwapCharacters, string
@@ -82,6 +84,22 @@ namespace CommonUtils
                 return strString.Substring(0, strString.Length - n);
             }
             return "";
+        }
+
+        public static string RemoveMid(this string strSting, int positionFrom, int positionTo)
+        {
+            int p1 = Math.Min(positionFrom, positionTo);
+            int p2 = Math.Max(positionFrom, positionTo);
+            return strSting.Left(p1) + strSting.RemoveLeft(p2 + 1);
+        }
+
+        public static string RemoveDuplicatedChars(this string s)
+        {
+            for (int i = s.Length - 1; i >= 0; i--)
+            {
+                if (s.Left(i).Contains("" + s[i])) { s = s.Left(i) + s.Right(s.Length - i - 1); }
+            }
+            return s;
         }
 
         /// <summary>
